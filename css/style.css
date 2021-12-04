@@ -149,7 +149,7 @@ body {
 .about_inner {
   margin: 0 auto 80px;
   padding: 40px 0;
-  max-width: 1320px;
+  max-width: 1200px;
 }
 
 .about_ttl_container {
@@ -183,7 +183,7 @@ body {
 ---------------------------------*/
 #service {
   margin: 0 auto 80px;
-  max-width: 1320px;
+  max-width: 1200px;
 }
 
 .service_contents {
@@ -259,7 +259,7 @@ body {
 .blog_inner {
   margin: 0 auto 80px;
   padding: 40px 0;
-  max-width: 1320px;
+  max-width: 1200px;
 }
 
 .blog_cards_container,
