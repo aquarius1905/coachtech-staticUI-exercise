@@ -1,6 +1,10 @@
 /*---------------------------------
   ページ全体で共通の設定
 ---------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #6e6e6e;
 }
@@ -137,6 +141,9 @@ body {
   white-space: nowrap;
 }
 
+.news_td:not(:last-child) {
+  width: 15%;
+}
 /*---------------------------------
   main > about
 ---------------------------------*/
@@ -144,7 +151,7 @@ body {
   background-color: #f5f5f5;
   margin: 0 auto 80px;
   padding: 40px 60px;
-  max-width: 1200px;
+  max-width: 1320px;
 }
 
 .about_ttl_container {
@@ -178,7 +185,6 @@ body {
 ---------------------------------*/
 #service {
   margin: 0 auto 80px;
-  padding: 0 60px;
   max-width: 1200px;
 }
 
@@ -252,7 +258,7 @@ body {
   background-color: #f5f5f5;
   margin: 0 auto 80px;
   padding: 40px 60px;
-  max-width: 1200px;
+  max-width: 1320px;
 }
 
 .blog_cards_container,
@@ -334,6 +340,7 @@ body {
 
 .company_th {
   background-color: #f5f5f5;
+  width: 30%;
 }
 
 /*---------------------------------
@@ -342,7 +349,6 @@ body {
 .recruit_interview {
   margin: 0 auto 80px;
   max-width: 1320px;
-  padding: 0 60px;
 }
 
 .recruit_interview_container {
