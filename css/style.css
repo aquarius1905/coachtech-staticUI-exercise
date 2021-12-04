@@ -32,19 +32,17 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto 100px;
-  padding: 40px 60px;
-  max-width: 1320px;
+  padding: 20px 40px;
 }
 
 .company_logo_img {
-  width: 160px;
+  width: 200px;
   height: auto;
 }
 
 .header_nav_list {
   display: flex;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .header_nav_item:not(:last-child) {
@@ -61,7 +59,6 @@ body {
 ---------------------------------*/
 .main {
   color: #6e6e6e;
-  padding: 0 30px;
 }
 
 /*---------------------------------
@@ -69,8 +66,7 @@ body {
 ---------------------------------*/
 .firstview {
   position: relative;
-  margin: 0 auto 80px;
-  max-width: 1320px;
+  margin-bottom: 80px;
 }
 
 .first_view_img {
@@ -111,7 +107,6 @@ body {
 /*---------------------------------
   main > news
 ---------------------------------*/
-
 #news {
   margin: 0 auto 80px;
   max-width: 50%;
@@ -149,8 +144,11 @@ body {
 ---------------------------------*/
 #about {
   background-color: #f5f5f5;
+}
+
+.about_inner {
   margin: 0 auto 80px;
-  padding: 40px 60px;
+  padding: 40px 0;
   max-width: 1320px;
 }
 
@@ -185,7 +183,7 @@ body {
 ---------------------------------*/
 #service {
   margin: 0 auto 80px;
-  max-width: 1200px;
+  max-width: 1320px;
 }
 
 .service_contents {
@@ -256,8 +254,11 @@ body {
 ---------------------------------*/
 #blog {
   background-color: #f5f5f5;
+}
+
+.blog_inner {
   margin: 0 auto 80px;
-  padding: 40px 60px;
+  padding: 40px 0;
   max-width: 1320px;
 }
 
@@ -347,8 +348,7 @@ body {
   main > recruit and interview
 ---------------------------------*/
 .recruit_interview {
-  margin: 0 auto 80px;
-  max-width: 1320px;
+  margin-bottom: 80px;
 }
 
 .recruit_interview_container {
